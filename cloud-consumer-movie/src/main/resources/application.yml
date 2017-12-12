@@ -1,0 +1,11 @@
+server:
+  port: 8100
+spring:
+  application:
+    name: cloud-consumer-movie
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
