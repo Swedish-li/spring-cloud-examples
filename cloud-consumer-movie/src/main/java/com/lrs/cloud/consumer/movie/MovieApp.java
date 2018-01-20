@@ -7,16 +7,19 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * 服务消费者
+ */
 @EnableDiscoveryClient
 @EnableFeignClients  // 启用feign进行远程调用
 @SpringBootApplication
 public class MovieApp {
     public static void main(String[] args) {
-        SpringApplication.run(MovieApp.class,args);
+        SpringApplication.run(MovieApp.class, args);
     }
 
     @Bean
-    public RestTemplate restTemplate(){
-        return  new RestTemplate();
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
     }
 }
