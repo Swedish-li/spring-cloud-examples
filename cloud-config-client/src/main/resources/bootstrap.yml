@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: app
+
+spring.cloud:
+    config:
+    uri: http://localhost:9191
+    profile: dev
+    label: master

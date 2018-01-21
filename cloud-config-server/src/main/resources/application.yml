@@ -1,0 +1,10 @@
+server.port: 9191
+
+spring.application.name: config-server
+
+spring.cloud.config:
+  server.git:
+    uri: https://gitee.com/startli/cloud-config.git
+    searchPaths: config
+#username
+#password

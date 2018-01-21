@@ -11,6 +11,8 @@
         <module>cloud-provider-user</module>
         <module>cloud-consumer-movie</module>
         <module>cloud-discovery-eureka</module>
+        <module>cloud-config-server</module>
+        <module>cloud-config-client</module>
     </modules>
 
     <parent>
