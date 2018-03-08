@@ -4,6 +4,6 @@ spring:
 
 spring.cloud:
     config:
-    uri: http://localhost:9191
-    profile: dev
-    label: master
+      uri: http://localhost:9191
+      profile: dev
+      label: master
