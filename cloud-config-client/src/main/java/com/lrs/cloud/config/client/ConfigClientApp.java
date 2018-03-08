@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class App {
+public class ConfigClientApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(App.class, args);
+        SpringApplication.run(ConfigClientApp.class, args);
     }
 
     @Value("${app.version}")
